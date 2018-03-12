@@ -27,7 +27,10 @@ public class CalculatorMain {
 	
 	public int pow(int a, int b)
 	{
-		return 0;
+		int res = a;
+		for (int i = 1; i < b; ++i)
+			res *= a;
+		return res;
 	}
 	
 	public int mod(int a, int b)
