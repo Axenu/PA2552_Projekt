@@ -7,12 +7,12 @@ import org.junit.Test;
 
 public class CaculatorTest {
 	private static CalculatorMain calc;
-	
+
 	@BeforeClass
 	public static void setup(){
 		calc = new CalculatorMain();
 	}
-	
+
 	@Test
 	public void testAdd() {
 		assertEquals(5, calc.add(3,2));
@@ -32,6 +32,10 @@ public class CaculatorTest {
 	@Test
 	public void testDivByZero() {
 		assertEquals(0, calc.div(3,0));
+	}
+	@Test
+	public void testPow() {
+		assertEquals(243, calc.pow(3,5));
 	}
 	@Test
 	public void testPresedence() {
