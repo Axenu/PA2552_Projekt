@@ -17,4 +17,9 @@ public class CalculatorMain {
 	{
 		return 0;
 	}
+	
+	public int div(int a, int b)
+	{
+		return 0;
+	}
 }
