@@ -1,0 +1,5 @@
+https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/
+
+To get started we followed a tutorial online that described how to setup Jenkins in a local docker environment. This would allow for easy transition to a real build server. The first step was to start the existing Jenkins docker image and map all the folders to local folders on the host computer. We failed the first time since the paths had to be absolute paths and not relative. Once it started we “unlocked” Jenkins, installed the suggested plugins and created our user.
+
+Thereafter we created a github repository and invited each other to it.
