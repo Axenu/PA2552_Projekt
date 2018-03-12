@@ -18,16 +18,36 @@ public class CaculatorTest {
 		assertEquals(5, calc.add(3,2));
 	}
 	@Test
+	public void testAddNegative() {
+		assertEquals(-1, calc.add(-3,2));
+	}
+	@Test
 	public void testSub() {
 		assertEquals(1, calc.sub(3,2));
+	}
+	@Test
+	public void testSubNegative() {
+		assertEquals(-5, calc.sub(-3,2));
 	}
 	@Test
 	public void testMul() {
 		assertEquals(6, calc.mul(3,2));
 	}
 	@Test
+	public void testMulNegative() {
+		assertEquals(-6, calc.mul(-3,2));
+	}
+	@Test
+	public void testMulDoubleNegative() {
+		assertEquals(6, calc.mul(-3,-2));
+	}
+	@Test
 	public void testDiv() {
 		assertEquals(1, calc.div(2,2));
+	}
+	@Test
+	public void testDivNegative() {
+		assertEquals(-1, calc.div(-2,2));
 	}
 	@Test
 	public void testDivByZero() {
