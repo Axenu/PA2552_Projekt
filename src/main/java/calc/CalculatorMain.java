@@ -20,6 +20,18 @@ public class CalculatorMain {
 
 	public int div(int a, int b)
 	{
+		if (b == 0)
+			return 0;
 		return a / b;
+	}
+	
+	public int pow(int a, int b)
+	{
+		return 0;
+	}
+	
+	public int mod(int a, int b)
+	{
+		return 0;
 	}
 }
