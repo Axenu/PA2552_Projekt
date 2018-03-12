@@ -37,6 +37,12 @@ public class CaculatorTest {
 	public void testPow() {
 		assertEquals(243, calc.pow(3,5));
 	}
+	
+	@Test
+	public void testMod() {
+		assertEquals(2, calc.mod(5,3));
+	}
+	
 	@Test
 	public void testPresedence() {
 		assertEquals(30, calc.add(calc.mul(5, 5), calc.div(10, 2)));
