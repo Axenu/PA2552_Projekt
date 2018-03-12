@@ -15,7 +15,7 @@ public class CalculatorMain {
 
 	public int mul(int a, int b)
 	{
-		return 0;
+		return a*b;
 	}
 
 	public int div(int a, int b)
