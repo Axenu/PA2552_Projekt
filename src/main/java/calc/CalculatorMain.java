@@ -22,4 +22,14 @@ public class CalculatorMain {
 	{
 		return a / b;
 	}
+	
+	public int pow(int a, int b)
+	{
+		return 0;
+	}
+	
+	public int mod(int a, int b)
+	{
+		return 0;
+	}
 }
