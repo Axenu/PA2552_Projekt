@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: calc.CaculatorTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+calc.CaculatorTest.testPresedence()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.Error: Unresolved compilation problems: 
+	The method mul(int, int) is undefined for the type CalculatorMain
+	The method div(int, int) is undefined for the type CalculatorMain
+	at calc.CaculatorTest.testPresedence(CaculatorTest.java:38)
+
+calc.CaculatorTest.testSub()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.Error: Unresolved compilation problem: 
+	The method sub(int, int) is undefined for the type CalculatorMain
+	at calc.CaculatorTest.testSub(CaculatorTest.java:22)
+
+calc.CaculatorTest.testAdd()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at calc.CaculatorTest.testAdd(CaculatorTest.java:18)
+
+calc.CaculatorTest.testMul()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.Error: Unresolved compilation problem: 
+	The method mul(int, int) is undefined for the type CalculatorMain
+	at calc.CaculatorTest.testMul(CaculatorTest.java:26)
+
+calc.CaculatorTest.testDiv()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.Error: Unresolved compilation problem: 
+	The method div(int, int) is undefined for the type CalculatorMain
+	at calc.CaculatorTest.testDiv(CaculatorTest.java:30)
+
+calc.CaculatorTest.testDivByZero()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.Error: Unresolved compilation problem: 
+	The method div(int, int) is undefined for the type CalculatorMain
+	at calc.CaculatorTest.testDivByZero(CaculatorTest.java:34)
+
